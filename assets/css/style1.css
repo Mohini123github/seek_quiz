@@ -1,0 +1,84 @@
+h1 {
+    margin: 50px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.parent {
+    height: 60vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.see {
+    width: 50%;
+    padding: 0;
+    text-align: center;
+}
+
+.see img {
+    width: 450px;
+}
+
+.see a {
+    text-align: center;
+}
+
+.son {
+    width: 50%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+@media (max-width: 941px) {
+    h1 {
+        color: blue;
+    }
+    .parent {
+        height: auto;
+        display: block;
+    }
+    .son {
+        width: 100%;
+    }
+    .see {
+        width: 100%;
+    }
+    .see img {
+        width: 100%;
+        height: auto;
+    }
+}
+.studash{
+    text-align: center;
+    background-color: #ffc000;
+    border-bottom: 1px solid red;
+}
+.studashlist{
+    min-height: 500px;
+    /*b*/
+}
+.stulist{
+    background-color: #f2f2f2;
+}
+.modl{
+    min-height: 200px;
+    margin: 10px;
+    padding: 25px;
+    background-color: #dfdfdf;
+    border-radius: 2.5px;
+}
+.p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: grey;
+}
